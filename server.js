@@ -20,8 +20,6 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 
 
-// API and HTML routes
-
 require("../app/routing/apiRoutes.js")(app);
 
 require("../app/routing/htmlRoutes.js")(app);
